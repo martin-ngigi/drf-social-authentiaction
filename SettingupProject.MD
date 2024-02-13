@@ -21,9 +21,21 @@ django-admin startproject project
 - Run server
 ```
 source .venv/bin/activate
+cd project
 python3 manage.py runserver
 ```
 - Create apps
 ```
-python3 manage.py startapp auth
+python3 manage.py startapp authentication
+python3 manage.py startapp social_auth
+```
+
+- Create super admin
+```
+python3 manage.py createsuperuser
+```
+
+- Create super usr
+```
+python3 manage.py createsuperuser
 ```
